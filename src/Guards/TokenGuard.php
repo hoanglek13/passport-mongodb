@@ -4,13 +4,13 @@ namespace Hoanglek13\PassportMongoDB\Guards;
 
 use Exception;
 use Firebase\JWT\JWT;
-use MoeenBasra\LaravelPassportMongoDB\Token;
+use Hoanglek13\PassportMongoDB\Token;
 use Illuminate\Http\Request;
-use MoeenBasra\LaravelPassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\Passport;
 use Illuminate\Container\Container;
-use MoeenBasra\LaravelPassportMongoDB\TransientToken;
-use MoeenBasra\LaravelPassportMongoDB\TokenRepository;
-use MoeenBasra\LaravelPassportMongoDB\ClientRepository;
+use Hoanglek13\PassportMongoDB\TransientToken;
+use Hoanglek13\PassportMongoDB\TokenRepository;
+use Hoanglek13\PassportMongoDB\ClientRepository;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Encryption\Encrypter;

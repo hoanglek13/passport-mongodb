@@ -9,16 +9,16 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Request;
-use MoeenBasra\LaravelPassportMongoDB\Guards\TokenGuard;
+use Hoanglek13\PassportMongoDB\Guards\TokenGuard;
 use Illuminate\Support\ServiceProvider;
 use League\OAuth2\Server\ResourceServer;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\Grant\AuthCodeGrant;
 use League\OAuth2\Server\Grant\ImplicitGrant;
 use League\OAuth2\Server\Grant\PasswordGrant;
-use MoeenBasra\LaravelPassportMongoDB\Bridge\PersonalAccessGrant;
+use Hoanglek13\PassportMongoDB\Bridge\PersonalAccessGrant;
 use League\OAuth2\Server\Grant\RefreshTokenGrant;
-use MoeenBasra\LaravelPassportMongoDB\Bridge\RefreshTokenRepository;
+use Hoanglek13\PassportMongoDB\Bridge\RefreshTokenRepository;
 use League\OAuth2\Server\Grant\ClientCredentialsGrant;
 
 class PassportServiceProvider extends ServiceProvider

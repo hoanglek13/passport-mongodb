@@ -2,7 +2,7 @@
 
 namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
-use MoeenBasra\LaravelPassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\Passport;
 
 class ScopeController
 {

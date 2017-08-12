@@ -2,8 +2,8 @@
 
 namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
-use MoeenBasra\LaravelPassportMongoDB\Passport;
-use MoeenBasra\LaravelPassportMongoDB\TokenRepository;
+use Hoanglek13\PassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\TokenRepository;
 use Lcobucci\JWT\Parser as JwtParser;
 use Zend\Diactoros\Response as Psr7Response;
 use Psr\Http\Message\ServerRequestInterface;

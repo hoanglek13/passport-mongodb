@@ -9,7 +9,7 @@ trait HasApiTokens
     /**
      * The current access token for the authentication user.
      *
-     * @var \MoeenBasra\LaravelPassportMongoDB\Token
+     * @var \Hoanglek13\PassportMongoDB\Token
      */
     protected $accessToken;
 
@@ -36,7 +36,7 @@ trait HasApiTokens
     /**
      * Get the current access token being used by the user.
      *
-     * @return \MoeenBasra\LaravelPassportMongoDB\Token|null
+     * @return \Hoanglek13\PassportMongoDB\Token|null
      */
     public function token()
     {
@@ -59,7 +59,7 @@ trait HasApiTokens
      *
      * @param  string  $name
      * @param  array  $scopes
-     * @return \MoeenBasra\LaravelPassportMongoDB\PersonalAccessTokenResult
+     * @return \Hoanglek13\PassportMongoDB\PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = [])
     {
@@ -71,7 +71,7 @@ trait HasApiTokens
     /**
      * Set the current access token for the user.
      *
-     * @param  \MoeenBasra\LaravelPassportMongoDB\Token  $accessToken
+     * @param  \Hoanglek13\PassportMongoDB\Token  $accessToken
      * @return $this
      */
     public function withAccessToken($accessToken)

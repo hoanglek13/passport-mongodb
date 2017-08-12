@@ -4,8 +4,8 @@ namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use MoeenBasra\LaravelPassportMongoDB\Passport;
-use MoeenBasra\LaravelPassportMongoDB\PersonalAccessTokenResult;
+use Hoanglek13\PassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\PersonalAccessTokenResult;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 
 class PersonalAccessTokenController

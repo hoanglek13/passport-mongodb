@@ -106,7 +106,7 @@ class Passport
         };
 
         $options = array_merge($options, [
-            'namespace' => '\MoeenBasra\LaravelPassportMongoDB\Http\Controllers',
+            'namespace' => '\Hoanglek13\PassportMongoDB\Http\Controllers',
         ]);
 
         Route::group($options, function ($router) use ($callback) {

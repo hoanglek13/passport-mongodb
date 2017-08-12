@@ -2,7 +2,7 @@
 
 namespace Hoanglek13\PassportMongoDB\Bridge;
 
-use MoeenBasra\LaravelPassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\Passport;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Repositories\ScopeRepositoryInterface;
 

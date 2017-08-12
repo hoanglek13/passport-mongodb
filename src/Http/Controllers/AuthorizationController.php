@@ -3,10 +3,10 @@
 namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
-use MoeenBasra\LaravelPassportMongoDB\Passport;
-use MoeenBasra\LaravelPassportMongoDB\Bridge\User;
-use MoeenBasra\LaravelPassportMongoDB\TokenRepository;
-use MoeenBasra\LaravelPassportMongoDB\ClientRepository;
+use Hoanglek13\PassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\Bridge\User;
+use Hoanglek13\PassportMongoDB\TokenRepository;
+use Hoanglek13\PassportMongoDB\ClientRepository;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response as Psr7Response;

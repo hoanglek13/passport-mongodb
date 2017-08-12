@@ -5,7 +5,7 @@ namespace Hoanglek13\PassportMongoDB\Bridge;
 use DateTime;
 use Illuminate\Database\Connection;
 use Illuminate\Contracts\Events\Dispatcher;
-use MoeenBasra\LaravelPassportMongoDB\Events\AccessTokenCreated;
+use Hoanglek13\PassportMongoDB\Events\AccessTokenCreated;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Entities\AccessTokenEntityInterface;
 use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;

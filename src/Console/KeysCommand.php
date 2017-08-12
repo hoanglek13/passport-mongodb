@@ -3,7 +3,7 @@
 namespace Hoanglek13\PassportMongoDB\Console;
 
 use phpseclib\Crypt\RSA;
-use MoeenBasra\LaravelPassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\Passport;
 use Illuminate\Console\Command;
 
 class KeysCommand extends Command

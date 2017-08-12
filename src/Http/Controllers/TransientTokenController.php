@@ -4,7 +4,7 @@ namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use MoeenBasra\LaravelPassportMongoDB\ApiTokenCookieFactory;
+use Hoanglek13\PassportMongoDB\ApiTokenCookieFactory;
 
 class TransientTokenController
 {

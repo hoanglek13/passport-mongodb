@@ -4,8 +4,8 @@ namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use MoeenBasra\LaravelPassportMongoDB\Client;
-use MoeenBasra\LaravelPassportMongoDB\ClientRepository;
+use Hoanglek13\PassportMongoDB\Client;
+use Hoanglek13\PassportMongoDB\ClientRepository;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 

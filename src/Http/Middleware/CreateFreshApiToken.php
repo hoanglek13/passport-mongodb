@@ -4,8 +4,8 @@ namespace Hoanglek13\PassportMongoDB\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
-use MoeenBasra\LaravelPassportMongoDB\Passport;
-use MoeenBasra\LaravelPassportMongoDB\ApiTokenCookieFactory;
+use Hoanglek13\PassportMongoDB\Passport;
+use Hoanglek13\PassportMongoDB\ApiTokenCookieFactory;
 
 class CreateFreshApiToken
 {

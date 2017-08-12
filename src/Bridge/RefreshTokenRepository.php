@@ -4,7 +4,7 @@ namespace Hoanglek13\PassportMongoDB\Bridge;
 
 use Illuminate\Database\Connection;
 use Illuminate\Contracts\Events\Dispatcher;
-use MoeenBasra\LaravelPassportMongoDB\Events\RefreshTokenCreated;
+use Hoanglek13\PassportMongoDB\Events\RefreshTokenCreated;
 use League\OAuth2\Server\Entities\RefreshTokenEntityInterface;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 

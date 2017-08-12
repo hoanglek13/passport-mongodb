@@ -5,7 +5,7 @@ namespace Hoanglek13\PassportMongoDB\Http\Controllers;
 use Exception;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Http\Request;
-use MoeenBasra\LaravelPassportMongoDB\Bridge\User;
+use Hoanglek13\PassportMongoDB\Bridge\User;
 
 trait RetrievesAuthRequestFromSession
 {

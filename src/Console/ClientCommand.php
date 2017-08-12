@@ -5,8 +5,8 @@ namespace Hoanglek13\PassportMongoDB\Console;
 use DateTime;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use MoeenBasra\LaravelPassportMongoDB\ClientRepository;
-use MoeenBasra\LaravelPassportMongoDB\PersonalAccessClient;
+use Hoanglek13\PassportMongoDB\ClientRepository;
+use Hoanglek13\PassportMongoDB\PersonalAccessClient;
 
 class ClientCommand extends Command
 {
@@ -30,7 +30,7 @@ class ClientCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \MoeenBasra\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \Hoanglek13\PassportMongoDB\ClientRepository  $clients
      * @return void
      */
     public function handle(ClientRepository $clients)
@@ -49,7 +49,7 @@ class ClientCommand extends Command
     /**
      * Create a new personal access client.
      *
-     * @param  \MoeenBasra\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \Hoanglek13\PassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createPersonalClient(ClientRepository $clients)
@@ -75,7 +75,7 @@ class ClientCommand extends Command
     /**
      * Create a new password grant client.
      *
-     * @param  \MoeenBasra\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \Hoanglek13\PassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createPasswordClient(ClientRepository $clients)
@@ -97,7 +97,7 @@ class ClientCommand extends Command
     /**
      * Create a authorization code client.
      *
-     * @param  \MoeenBasra\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \Hoanglek13\PassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createAuthCodeClient(ClientRepository $clients)

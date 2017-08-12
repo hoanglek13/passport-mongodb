@@ -3,7 +3,7 @@
 namespace Hoanglek13\PassportMongoDB\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use MoeenBasra\LaravelPassportMongoDB\Exceptions\MissingScopeException;
+use Hoanglek13\PassportMongoDB\MissingScopeException;
 
 class CheckScopes
 {
